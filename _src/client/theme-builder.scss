@@ -74,10 +74,15 @@
   border-color: $table-border-color;
   border-width: $table-border-size;
   background-color: $table-background-color;
+  font-size: $paragraph-font-size;
+  line-height: $paragraph-line-height;
 
   th,
   td {
     padding: $table-padding;
+    border-style: solid;
+  border-color: $table-border-color;
+  border-width: $table-border-size;
   }
 
   th {

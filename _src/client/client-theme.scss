@@ -7,6 +7,9 @@ GITHUB REPO: https://github.com/danieljbell/client-theme-template
 =================================================================
 */
 
+@import './modules/full-bleed';
+@import './modules/hero';
+
 
 @import './_overrides';
 @import './_utilities';

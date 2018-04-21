@@ -1,0 +1,32 @@
+.transtelco-full-bleed {
+  position: relative;
+  left: -30px;
+  width: calc(100% + 60px);
+  padding-top: 45px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 15px;
+  background-color: #f2f2f2;
+  margin-top: 30px;
+  margin-bottom: 20px;
+
+  h2 {
+    #content_editor &,
+    .pdf-page-content & {
+      color: $paragraph-text-color;
+      position: relative;
+    }
+    
+    &:after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: -10px;
+      width: 75px;
+      height: 3px;
+      background-color: #f0493e;
+    }
+
+  }
+
+}

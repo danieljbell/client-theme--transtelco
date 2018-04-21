@@ -34,7 +34,7 @@ body {
   img {
     max-width: 100%;
   }
-  ul {
+  ol, ul {
     padding-left: 40px;
   }
   blockquote {
@@ -185,4 +185,8 @@ body {
   .copyHTML {
     display: none;
   }
+}
+
+hr {
+  margin: 1em 0;
 }
