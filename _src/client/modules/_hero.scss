@@ -3,5 +3,21 @@
   padding-top: 60px;
   margin-top: 0;
   margin-bottom: 0;
-  // margin-bottom: -20px;
+  @include print {
+    top: -1.25in;
+    padding-top: 0.75in;
+    margin-bottom: -1in;
+  }
+  
+  img {
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+    max-width: 125px !important;
+    @include print {
+      right: 1in;
+      max-width: 1in !important;
+    }
+  }
+
 }

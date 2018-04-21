@@ -9,6 +9,12 @@
   background-color: #f2f2f2;
   margin-top: 30px;
   margin-bottom: 20px;
+  @include print {
+    left: -1in;
+    width: 8.5in;
+    padding-left: 1in;
+    padding-right: 1in;
+  }
 
   h2 {
     #content_editor &,
