@@ -9,5 +9,6 @@ GITHUB REPO: https://github.com/danieljbell/client-theme--transtelco
 .transtelco-hero { top: -20px; padding-top: 60px; margin-top: 0; margin-bottom: 0; }
 .transtelco-hero img { position: absolute; right: 30px; bottom: 20px; max-width: 125px !important; }
 @media print { .transtelco-full-bleed { left: -1in; width: 8.5in; padding-left: 1in; padding-right: 1in; } .transtelco-hero { top: -1.25in; padding-top: 0.75in; margin-bottom: -1in; } .transtelco-hero img { right: 1in; max-width: 1in !important; } }
+@media screen and (max-width: 735px) { .transtelco-hero img { position: static; bottom: auto; right: auto; margin-top: 20px; } }
 
 /*# sourceMappingURL=client-theme.css.map */

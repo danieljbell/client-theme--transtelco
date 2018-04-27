@@ -14,6 +14,12 @@
     right: 30px;
     bottom: 20px;
     max-width: 125px !important;
+    @include mobile {
+      position: static;
+      bottom: auto;
+      right: auto;
+      margin-top: 20px;
+    }
     @include print {
       right: 1in;
       max-width: 1in !important;
